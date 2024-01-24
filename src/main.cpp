@@ -8,8 +8,8 @@
 const char *ssid = WIFI_SSID;
 const char *password = WIFI_PASSWORD;
 
-float bt_simulated_value = 25.0;
-float et_simulated_value = 25.0;
+float bt_simulated_value = 125.0;
+float et_simulated_value = 125.0;
 
 AsyncWebServer server(80);
 AsyncWebSocket ws("/WebSocket");
